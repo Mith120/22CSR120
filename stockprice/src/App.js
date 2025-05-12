@@ -3,7 +3,9 @@ import Stocks from './stockpage';
 function App() {
   return (
     <div className="App">
-      <Stocks/>
+      <div className="App-header">
+            <Stocks/>
+      </div>
     </div>
   );
 }
